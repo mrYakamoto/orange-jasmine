@@ -46,17 +46,6 @@ Our code for the model tests resides in `test/spec/tree.spec.js`.
 Write OO JS code for the model in `javascripts/tree.js` to make this test pass.  Then uncomment the
 next test (change the `xit` to `it`) and keep going until all the specs are passing.
 
-##### Release 1: TDDing the View with Jasmine
-
-Much like for our tree model, we've written a Jasmine test for you to test the view. Write the code
-for the view to make this test pass.
-
-Our code for the view tests resides in `test/spec/view.spec.js`.
-
-Write OO JS code for the view in `javascripts/view.js` to make this test pass.
-
-We'll come back to this test suite later to add additional tests for new functionality!
-
 ##### Release 2: Expanding the View
 
 Now let's add some interaction with the DOM. Write your DOM interaction code in your view object,
@@ -77,7 +66,18 @@ We've already given you one pending test example in `view.spec.js`. Get it worki
 continue to add new tests for all your functions that create, read, update, or delete anything
 from the DOM.
 
-##### Release 3: Bonus! (optional)
+##### Release 3: TDDing the View with Jasmine
+
+Much like for our tree model, we've written a Jasmine test for you to test the view. Write the code
+for the view to make this test pass.
+
+Our code for the view tests resides in `test/spec/view.spec.js`.
+
+Write OO JS code for the view in `javascripts/view.js` to make this test pass.
+
+We'll come back to this test suite later to add additional tests for new functionality!
+
+##### Release 4: Bonus! (optional)
 
 * Have some fun. Can you add a pear tree? Can you do it TDD-style?
 * Can you pick all the fruit that grows each year and put it in a basket?
