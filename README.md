@@ -56,7 +56,7 @@ found in `javascripts/view.js`. Use the objects you built in release 0.
 * Write code that allows you to pick an orange off the tree by clicking a button
 
 
-##### Release 2: TDDing the View with Jasmine - Optional
+##### Release 2: TDDing the View with Jasmine (optional)
 
 Much like for our tree model, we've written a Jasmine test for you to test the view. 
 It's currently disabled in the `SpecRunner`, so edit that file and uncomment 
