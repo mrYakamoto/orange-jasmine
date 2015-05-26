@@ -46,18 +46,26 @@ Our code for the model tests resides in `test/spec/tree.spec.js`.
 Write OO JS code for the model in `javascripts/tree.js` to make this test pass.  Then uncomment the
 next test (change the `xit` to `it`) and keep going until all the specs are passing.
 
-##### Release 2: Expanding the View
+##### Release 1: Expanding the View
 
 Now let's add some interaction with the DOM. Write your DOM interaction code in your view object,
-found in `javascripts/view.js`. Use the objects you built in releases 0 and 1.
+found in `javascripts/view.js`. Use the objects you built in release 0.
 
 * Write code that allows you to plant a tree by clicking a button. It should be visible on the screen somehow (there is a tree image in the `images` directory you may use)
 * Write code that allows you to age a tree by clicking a button. If you age the tree enough, there should be oranges that appear on the tree (use the orange image)
 * Write code that allows you to pick an orange off the tree by clicking a button
 
-Testing DOM-interactive JavaScript with Jasmine requires a lot of setup, since
-`SpecRunner.html` has no way to access the HTML in `index.html`. You have to create mock
-HTML elements in your testing suite for any of your `view.js` tests to run.
+
+##### Release 2: TDDing the View with Jasmine - Optional
+
+Much like for our tree model, we've written a Jasmine test for you to test the view. 
+It's currently disabled in the `SpecRunner`, so edit that file and uncomment 
+the `view.js` and `view.spec.js` script lines. 
+
+Testing DOM-interactive JavaScript with Jasmine requires a lot of setup. 
+`SpecRunner.html` has no way to access the HTML in `index.html`, so mock HTML
+elements have to be created in the testing suite before any of the view tests
+can run.
 
 We've created these mock elements for you in the view spec. Read through the spec to see how
 the mock elements are appended and removed before/after each test.
@@ -66,16 +74,9 @@ We've already given you one pending test example in `view.spec.js`. Get it worki
 continue to add new tests for all your functions that create, read, update, or delete anything
 from the DOM.
 
-##### Release 3: TDDing the View with Jasmine
-
-Much like for our tree model, we've written a Jasmine test for you to test the view. Write the code
-for the view to make this test pass.
-
 Our code for the view tests resides in `test/spec/view.spec.js`.
 
 Write OO JS code for the view in `javascripts/view.js` to make this test pass.
-
-We'll come back to this test suite later to add additional tests for new functionality!
 
 ##### Release 4: Bonus! (optional)
 
