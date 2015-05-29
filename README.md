@@ -5,12 +5,15 @@
 * Write OO JavaScript using constructor functions and prototypal methods
 * Begin working with MVC concepts in JavaScript
 * Unit test JavaScript code using the Jasmine JS testing framework
-* Gain familiarity with using [HTML5 Boilerplate](http://html5boilerplate.com/) to utilize HTML/CSS best practices
 * Gain familiarity with file structure/naming conventions
 
 ### Summary
 
-Remember our old friend **Orange Trees** from Ruby? Let's revisit it in JavaScript.
+Remember our old friend **Orange Trees** from Ruby? Let's revisit it in
+JavaScript.  While this assignment might look _superficially_ easy you can make
+this a very powerful and elegant program and unify the lessons of [The
+Prophetess Metz's][metz] scrolls *as well* what you know about how to write
+Javascript objects.
 
 We have two HTML pages that we'll be utilizing:
 * `index.html`, which represents our actual 'application:' what the end-user sees and interacts with
@@ -55,7 +58,6 @@ found in `javascripts/view.js`. Use the objects you built in release 0.
 * Write code that allows you to age a tree by clicking a button. If you age the tree enough, there should be oranges that appear on the tree (use the orange image)
 * Write code that allows you to pick an orange off the tree by clicking a button
 
-
 ##### Release 2: TDDing the View with Jasmine - Optional
 
 Much like for our tree model, we've written a Jasmine test for you to test the view. 
@@ -82,12 +84,18 @@ Write OO JS code for the view in `javascripts/view.js` to make this test pass.
 
 * Have some fun. Can you add a pear tree? Can you do it TDD-style?
 * Can you pick all the fruit that grows each year and put it in a basket?
-* Can you know the number of fruit in the basket and the average diameter of that fruit at any time?
+* Can you know the number of fruit in the basket and the average diameter of
+  that fruit at any time?
 
 ### Resources
 
 1. [tryJasmine.com](http://tryjasmine.com)
 1. [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-1. [Jasmine Documentation](http://pivotal.github.io/jasmine/)
+1. [Jasmine Documentation](http://jasmine.github.io/2.0/introduction.html)
 1. [Jasmine Cheat Sheet](http://www.cheatography.com/citguy/cheat-sheets/jasmine-js-testing/)
 1. [Another Jasmine Tutorial](http://evanhahn.com/how-do-i-jasmine/)
+1. [Sandi Metz][metz]
+1. [jQuery][jQuery library]
+
+[metz]: http://www.sandimetz.com/
+[jQuery library]: http://jquery.com/
